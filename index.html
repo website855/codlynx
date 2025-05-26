@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CODLYNX Dynamics</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet" />
+</head>
+<body>
+
+<!-- Background space animation -->
+<div style="background-color: black; width: 100vw; height: 100vh; position: fixed; top: 0; left: 0; z-index: -1;"></div>
+
+<!-- Navbar -->
+<header class="navbar">
+  <div class="logo">
+    <img src="codlogo.png" alt="codlogo" />
+    <span>CODLYNX Dynamics</span>
+  </div>
+  <nav>
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#team">Team Members</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#about">About Us</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="menu-toggle" id="mobile-menu">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </nav>
+</header>
+
+<!-- Example Content Section with Image and Quote -->
+<section id="home" class="home-section">
+  <div class="content">
+    <img src="codlogo.png" alt="Home Image" class="home-image" />
+    <div class="quote-container">
+      <blockquote class="quote">
+        "Innovation is the ability to see change as an opportunity, not a threat."
+      </blockquote>
+      <p class="quote-author">- Steve Jobs</p>
+    </div>
+  </div>
+</section>
+
+<section id="team" class="team-section">
+  <h2 class="team-title">Team Members</h2>
+  <div class="team-slider">
+    <!-- Team Member Cards -->
+    <div class="team-card active">
+      <div class="team-info">
+        <h3 class="team-name">Hari</h3>
+        <p class="team-role">Founder</p>
+        <p class="team-desc">The visionary who sparked CODLYNX Dynamics. A tech-savvy leader with creative fire.</p>
+      </div>
+      <div class="team-photo"><img src="2.png" alt="Hari" /></div>
+    </div>
+
+    <div class="team-card">
+      <div class="team-info">
+        <h3 class="team-name">Dhanukshan</h3>
+        <p class="team-role">Co Founder</p>
+        <p class="team-desc">Co-architect of the vision. Innovator with an eye for next-gen web technologies.</p>
+      </div>
+      <div class="team-photo"><img src="4.png" alt="Dhanukshan" /></div>
+    </div>
+
+    <div class="team-card">
+      <div class="team-info">
+        <h3 class="team-name">Shijo</h3>
+        <p class="team-role">CEO</p>
+        <p class="team-desc">The strategic brain behind CODLYNX. Leads with passion, precision, and purpose.</p>
+      </div>
+      <div class="team-photo"><img src="8.png" alt="Shijo" /></div>
+    </div>
+
+    <div class="team-card">
+      <div class="team-info">
+        <h3 class="team-name">Gouthamraj</h3>
+        <p class="team-role">CTO</p>
+        <p class="team-desc">Tech wizard turning innovation into implementation. Backbone of development.</p>
+      </div>
+      <div class="team-photo"><img src="1.png" alt="Gouthamraj" /></div>
+    </div>
+
+    <div class="team-card">
+      <div class="team-info">
+        <h3 class="team-name">Dhanush</h3>
+        <p class="team-role">CDO</p>
+        <p class="team-desc">Design genius bringing visual magic to the digital world. Loves clean, bold UI.</p>
+      </div>
+      <div class="team-photo"><img src="5.png" alt="Dhanush" /></div>
+    </div>
+
+    <div class="team-card">
+      <div class="team-info">
+        <h3 class="team-name">Arun</h3>
+        <p class="team-role">CFO</p>
+        <p class="team-desc">Finance pro making sure innovation is sustainable and scalable.</p>
+      </div>
+      <div class="team-photo"><img src="7.png" alt="Arun" /></div>
+    </div>
+
+    <div class="team-card">
+      <div class="team-info">
+        <h3 class="team-name">Aravindh</h3>
+        <p class="team-role">CMO</p>
+        <p class="team-desc">Master of marketing and messaging. Transforms tech into buzz.</p>
+      </div>
+      <div class="team-photo"><img src="6.png" alt="Aravindh" /></div>
+    </div>
+
+    <div class="team-card">
+      <div class="team-info">
+        <h3 class="team-name">Dhushanth</h3>
+        <p class="team-role">Team Leader</p>
+        <p class="team-desc">Coordinates the crew with clarity and drive. Gets things DONE.</p>
+      </div>
+      <div class="team-photo"><img src="3.png" alt="Dhushanth" /></div>
+    </div>
+  </div>
+
+  <div class="quote-container1">
+    <blockquote class="quote1">
+      "True success isn't measured by what we build, but by the friendships we cultivate along the way."
+    </blockquote>
+    <p class="quote-author1">- Hari, Founder</p>
+  </div>
+</section>
+
+<div class="team-wrapper">
+
+  <!-- Existing line -->
+  <div class="below-wrapper-line" style="text-align:center; margin-bottom: 20px; font-weight: 600; font-size: 1.2rem; color:#0ff;">
+    Proudly presenting our incredible team below:
+  </div>
+
+  <!-- Horizontal Team Grid -->
+  <div class="team-scroll-section">
+    <h2 class="team-scroll-title">Meet Our Crew</h2>
+    <div class="scroll-container">
+      <div class="scroll-card">
+        <h4>Hari</h4>
+        <p>Founder</p>
+        <span class="team-quote">"Creating the future, one idea at a time."</span>
+      </div>
+      <!-- rest of your scroll cards ... -->
+      <div class="scroll-card">
+        <h4>Dhanukshan</h4>
+        <p>Co Founder</p>
+        <span class="team-quote">"Innovation starts with bold collaboration."</span>
+      </div>
+      <div class="scroll-card">
+        <h4>Shijo</h4>
+        <p>CEO</p>
+        <span class="team-quote">"Leading with vision, scaling with purpose."</span>
+      </div>
+      <div class="scroll-card">
+        <h4>Gouthamraj</h4>
+        <p>CTO</p>
+        <span class="team-quote">"Engineering ideas into digital brilliance."</span>
+      </div>
+      <div class="scroll-card">
+        <h4>Dhanush</h4>
+        <p>CDO</p>
+        <span class="team-quote">"Design is not just how it looks — it's how it works."</span>
+      </div>
+      <div class="scroll-card">
+        <h4>Arun</h4>
+        <p>CFO</p>
+        <span class="team-quote">"Balancing creativity with financial clarity."</span>
+      </div>
+      <div class="scroll-card">
+        <h4>Aravindh</h4>
+        <p>CMO</p>
+        <span class="team-quote">"Marketing the magic behind every product."</span>
+      </div>
+      <div class="scroll-card">
+        <h4>Dhushanth</h4>
+        <p>Team Leader</p>
+        <span class="team-quote">"Driving unity, delivering results."</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Brand Ambassador Section -->
+<div style="padding: 5rem 2rem; text-align: center; color: #fff; margin-top: 40px;">
+
+  <h2 style="
+    font-family: 'Orbitron', sans-serif;
+    font-size: 4rem;
+    margin-bottom: 3rem;
+    color: #00f0ff;
+    text-shadow: 0 0 20px #00f0ff, 0 0 40px #0ff;
+  ">
+    Introducing Our Brand Ambassador
+  </h2>
+
+  <div style="
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    align-items: center;
+  ">
+
+    <div id="brand-ambassador-card" style="
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 2rem;
+      padding: 3.5rem;
+      border-radius: 25px;
+      border: 2px solid rgba(0, 240, 255, 0.3);
+      background: transparent;
+      box-shadow: 0 0 30px rgba(0, 240, 255, 0.2), 0 0 10px rgba(0, 240, 255, 0.1);
+      backdrop-filter: blur(5px);
+      animation: glowBorder 2s infinite alternate;
+      max-width: 800px;
+      width: 100%;
+    ">
+
+      <div style="
+        flex: 1;
+        display: flex;
+        justify-content: center;
+      ">
+        <img 
+          id="brand-ambassador-img"
+          src="karthika-removebg-preview.png" 
+          alt="Karthika" 
+          style="
+            max-width: 350px;
+            width: 100%;
+            border-radius: 20px;
+            animation: fadeInUp 1.2s ease-out forwards;
+          " 
+        />
+      </div>
+
+      <div style="
+        flex: 1;
+        text-align: left;
+        padding-left: 2rem;
+      ">
+        <h3 id="brand-ambassador-name" style="
+          font-family: 'Orbitron', sans-serif;
+          font-size: 3.4rem;
+          font-weight: 700;
+          color: #00f0ff;
+          text-shadow: 0 0 10px #00f0ff;
+          margin: 0 0 10px 0;
+        ">
+          Karthika
+        </h3>
+        <p id="brand-ambassador-role" style="
+          font-family: 'Orbitron', sans-serif;
+          font-size: 1.8rem;
+          color: #cceeff;
+          margin-top: 0;
+          margin-bottom: 10px;
+          text-shadow: 0 0 6px rgba(0, 240, 255, 0.4);
+          font-weight: 600;
+        ">
+          Brand Ambassador
+        </p>
+        <p id="brand-ambassador-desc" style="
+          font-size: 1.4rem;
+          margin-top: 0;
+          color: #dddddd;
+          font-style: italic;
+          max-width: 90%;
+          line-height: 1.6;
+        ">
+          Our charismatic face and voice, spreading the essence of CODLYNX Dynamics far and wide.
+        </p>
+      </div>
+
+    </div>
+  </div>
+
+</div>
+
+<style>
+@keyframes glowBorder {
+  0% { box-shadow: 0 0 15px rgba(0, 240, 255, 0.3); }
+  100% { box-shadow: 0 0 30px rgba(0, 240, 255, 0.6); }
+}
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Responsive bigger size for landscape (min-width: 900px) */
+@media (min-width: 900px) {
+  #brand-ambassador-card {
+    max-width: 850px !important;      /* Slightly bigger than 800 */
+    padding: 3.75rem !important;       /* Slightly more padding */
+  }
+  #brand-ambassador-img {
+    max-width: 360px !important;      /* Slightly bigger image */
+  }
+  #brand-ambassador-name {
+    font-size: 3.6rem !important;     /* Slightly bigger font */
+  }
+  #brand-ambassador-role {
+    font-size: 1.9rem !important;     /* Slightly bigger */
+  }
+  #brand-ambassador-desc {
+    font-size: 1.5rem !important;     /* Slightly bigger */
+  }
+}
+</style>
+
+
+
+<section id="services" class="services-section">
+  <h2 class="section-title">✅ CODLYNX Dynamics – Services We Offer</h2>
+
+  <div class="service-cards-container">
+
+    <!-- Card 1 -->
+    <div class="flip-card">
+      <div class="flip-inner">
+        <div class="flip-front">
+          <div class="category-icon">💻</div>
+          <h3 class="category-title">Tech & Digital Development</h3>
+        </div>
+        <div class="flip-back">
+          <h4>Tech & Digital Development</h4>
+          <p>We specialize in building modern web and mobile applications tailored to your business goals.</p>
+          <ul>
+            <li>✅ App Development</li>
+            <li>✅ Web Development</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 2 -->
+    <div class="flip-card">
+      <div class="flip-inner">
+        <div class="flip-front">
+          <div class="category-icon">🎨</div>
+          <h3 class="category-title">Creative & Visual Design</h3>
+        </div>
+        <div class="flip-back">
+          <h4>Creative & Visual Design</h4>
+          <p>We craft engaging graphics and short-form media that elevate your digital presence.</p>
+          <ul>
+            <li>✅ Graphic Design</li>
+            <li>✅ Motion Graphics for Ads</li>
+            <li>✅ Video Editing & Content Creation</li>
+            <li>✅ Photography</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 3 -->
+    <div class="flip-card">
+      <div class="flip-inner">
+        <div class="flip-front">
+          <div class="category-icon">🧠</div>
+          <h3 class="category-title">Professional & Personal Growth</h3>
+        </div>
+        <div class="flip-back">
+          <h4>Professional & Personal Growth</h4>
+          <p>Boost your career and online identity with our personal branding solutions.</p>
+          <ul>
+            <li>✅ Resume / Portfolio Building</li>
+            <li>✅ Influencer Portfolio Creation</li>
+            <li>✅ Personal Branding Kits</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section id="about" class="about-section">
+  <h2 class="about-title">🚀 About CODLYNX Dynamics</h2>
+  <p class="about-description">
+    CODLYNX Dynamics is a creative tech-driven company dedicated to delivering top-tier digital solutions.
+    We specialize in web development, mobile apps, branding design, and media production to empower startups,
+    creators, and enterprises with futuristic, visually captivating experiences.
+  </p>
+
+  <div class="about-highlights">
+    <div class="highlight-card">
+      <h3>💡 Vision</h3>
+      <p>To revolutionize digital presence with modern, glowing and animated experiences for all industries.</p>
+    </div>
+    <div class="highlight-card">
+      <h3>🎯 Mission</h3>
+      <p>To blend creativity and technology into seamless products—from websites and apps to branding and videos.</p>
+    </div>
+    <div class="highlight-card">
+      <h3>🧠 Expertise</h3>
+      <p>We excel in UI/UX, animation, development, and content that elevates your business and personal brand.</p>
+    </div>
+  </div>
+</section>
+
+<section id="work-videos" class="video-section">
+  <h2 class="section-title">💼 Work Time Videos</h2>
+  <div class="video-gallery">
+    <!-- Work Time Video -->
+    <video class="video-frame" id="work-video" controls preload="auto">
+      <source src="20250504_190038.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </div>
+</section>
+
+<section id="fun-videos" class="video-section">
+  <h2 class="section-title">🎉 Fun Time Videos</h2>
+  <div class="video-gallery">
+    <!-- Fun Time Video -->
+    <video class="video-frame" id="fun-video" controls preload="auto">
+      <source src="IMG_4144.MOV" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </div>
+</section>
+
+<section id="contact" class="contact-section">
+  <h2 class="section-title">📞 Get in Touch</h2>
+  
+  <div class="contact-container">
+    <div class="contact-info">
+      <h3>Contact Us</h3>
+      <p>If you have any questions or need assistance, feel free to reach out to us!</p>
+      <ul>
+        <li><i class="fas fa-envelope"></i> <strong>Email:</strong> codlynxdynamics@gmail.com</li>
+        <li><i class="fas fa-phone-alt"></i> <strong>Phone:</strong> +916385229709</li>
+      </ul>
+    </div>  
+  </div>
+</section>
+
+<script>
+  // Toggle Mobile Menu
+  const mobileMenu = document.getElementById('mobile-menu');
+  const navLinks = document.querySelector('.nav-links');
+  mobileMenu.addEventListener('click', () => {
+    navLinks.classList.toggle('active');
+    mobileMenu.classList.toggle('open');
+  });
+</script>
+<script>
+  const cards = document.querySelectorAll(".team-card");
+  let current = 0;
+
+  function showNextCard() {
+    cards[current].classList.remove("active");
+    current = (current + 1) % cards.length;
+    cards[current].classList.add("active");
+  }
+
+  setInterval(showNextCard, 3000); // Change every 3 seconds
+
+  // Video source lists for Work and Fun videos
+const workVideos = [
+  "20250504_190038.mp4",
+  "20250505_192513.mp4",
+  "20250505_173134.mp4",
+  "20250505_173518.mp4",
+  "20250505_193537.mp4"
+];
+
+const funVideos = [
+  "IMG_4144.MOV",
+  "IMG_4145.MOV",
+  "IMG_4149.MOV",
+  "IMG_4188.MOV",
+  "IMG_4196.MOV"
+];
+
+// Function to handle video switching
+function handleVideoSwitch(videoElement, videoList) {
+  let currentIndex = 0;
+
+  videoElement.src = videoList[currentIndex];
+  videoElement.play();
+
+  videoElement.addEventListener('ended', function() {
+    currentIndex = (currentIndex + 1) % videoList.length; // Loop to the first video after the last one
+    videoElement.src = videoList[currentIndex];
+    videoElement.play();
+  });
+}
+
+// Get video elements
+const workVideoElement = document.getElementById('work-video');
+const funVideoElement = document.getElementById('fun-video');
+
+// Start playing Work and Fun videos
+handleVideoSwitch(workVideoElement, workVideos);
+handleVideoSwitch(funVideoElement, funVideos);
+
+</script>
+
+
+</body>
+</html>
